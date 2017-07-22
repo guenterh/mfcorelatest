@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.culturegraph.mf.framework.LifeCycle</OriginalElement>
+  <nodes>
+    <node x="1286.543181818182" y="368.0">org.culturegraph.mf.framework.helpers.DefaultTee</node>
+    <node x="684.4181818181819" y="368.0">org.culturegraph.mf.framework.helpers.DefaultStreamPipe</node>
+    <node x="459.16818181818195" y="286.0">org.culturegraph.mf.framework.helpers.DefaultXmlReceiver</node>
+    <node x="233.1681818181819" y="286.0">org.culturegraph.mf.framework.helpers.DefaultObjectReceiver</node>
+    <node x="1312.543181818182" y="286.0">org.culturegraph.mf.framework.Tee</node>
+    <node x="543.9511363636366" y="164.0">org.culturegraph.mf.framework.ObjectReceiver</node>
+    <node x="587.5431818181819" y="0.0">org.culturegraph.mf.framework.LifeCycle</node>
+    <node x="1108.543181818182" y="368.0">org.culturegraph.mf.framework.helpers.DefaultXmlPipe</node>
+    <node x="0.0" y="286.0">org.culturegraph.mf.framework.helpers.DefaultStreamReceiver</node>
+    <node x="840.5431818181819" y="286.0">org.culturegraph.mf.framework.ObjectPipe</node>
+    <node x="1174.043181818182" y="286.0">org.culturegraph.mf.framework.XmlPipe</node>
+    <node x="832.4511363636366" y="164.0">org.culturegraph.mf.framework.XmlReceiver</node>
+    <node x="893.5431818181819" y="368.0">org.culturegraph.mf.framework.helpers.DefaultObjectPipe</node>
+    <node x="589.0431818181819" y="82.0">org.culturegraph.mf.framework.Receiver</node>
+    <node x="986.5431818181819" y="286.0">org.culturegraph.mf.framework.helpers.DefaultSender</node>
+    <node x="670.4181818181819" y="450.0">org.culturegraph.mf.framework.helpers.ForwardingStreamPipe</node>
+    <node x="366.9511363636365" y="164.0">org.culturegraph.mf.framework.StreamReceiver</node>
+    <node x="112.04166666666674" y="164.0">org.culturegraph.mf.framework.helpers.DefaultLifeCycle</node>
+    <node x="665.1681818181819" y="286.0">org.culturegraph.mf.framework.StreamPipe</node>
+    <node x="1107.7276515151516" y="164.0">org.culturegraph.mf.framework.Sender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultTee" target="org.culturegraph.mf.framework.Tee">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultSender" target="org.culturegraph.mf.framework.Sender">
+      <point x="0.0" y="-16.0" />
+      <point x="1061.543181818182" y="266.0" />
+      <point x="1156.7276515151516" y="266.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultStreamPipe" target="org.culturegraph.mf.framework.StreamPipe">
+      <point x="-45.25" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.Sender" target="org.culturegraph.mf.framework.LifeCycle">
+      <point x="0.0" y="-16.0" />
+      <point x="1156.7276515151516" y="57.0" />
+      <point x="680.0431818181819" y="57.0" />
+      <point x="37.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultObjectPipe" target="org.culturegraph.mf.framework.helpers.DefaultSender">
+      <point x="44.5" y="-16.0" />
+      <point x="1027.043181818182" y="348.0" />
+      <point x="1061.543181818182" y="348.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultStreamPipe" target="org.culturegraph.mf.framework.helpers.DefaultSender">
+      <point x="45.25" y="-16.0" />
+      <point x="820.1681818181819" y="348.0" />
+      <point x="1011.5431818181819" y="348.0" />
+      <point x="-50.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.XmlReceiver" target="org.culturegraph.mf.framework.Receiver">
+      <point x="0.0" y="-16.0" />
+      <point x="899.4511363636366" y="139.0" />
+      <point x="679.0431818181819" y="139.0" />
+      <point x="36.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultStreamReceiver" target="org.culturegraph.mf.framework.StreamReceiver">
+      <point x="52.25" y="-16.0" />
+      <point x="156.75" y="256.0" />
+      <point x="406.2011363636365" y="256.0" />
+      <point x="-39.25" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.ObjectReceiver" target="org.culturegraph.mf.framework.Receiver">
+      <point x="0.0" y="-16.0" />
+      <point x="620.9511363636366" y="139.0" />
+      <point x="643.0431818181819" y="139.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultStreamReceiver" target="org.culturegraph.mf.framework.helpers.DefaultLifeCycle">
+      <point x="-52.25" y="-16.0" />
+      <point x="52.25" y="266.0" />
+      <point x="139.20833333333337" y="266.0" />
+      <point x="-54.33333333333334" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultXmlReceiver" target="org.culturegraph.mf.framework.XmlReceiver">
+      <point x="46.5" y="-16.0" />
+      <point x="598.6681818181819" y="236.0" />
+      <point x="865.9511363636366" y="236.0" />
+      <point x="-33.5" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultObjectReceiver" target="org.culturegraph.mf.framework.ObjectReceiver">
+      <point x="51.5" y="-16.0" />
+      <point x="387.6681818181819" y="266.0" />
+      <point x="582.4511363636366" y="266.0" />
+      <point x="-38.5" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.XmlPipe" target="org.culturegraph.mf.framework.Sender">
+      <point x="26.5" y="-16.0" />
+      <point x="1253.543181818182" y="226.0" />
+      <point x="1176.3276515151515" y="226.0" />
+      <point x="19.59999999999991" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultXmlPipe" target="org.culturegraph.mf.framework.XmlPipe">
+      <point x="39.5" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.ForwardingStreamPipe" target="org.culturegraph.mf.framework.helpers.DefaultStreamPipe">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.Tee" target="org.culturegraph.mf.framework.Sender">
+      <point x="0.0" y="-16.0" />
+      <point x="1349.543181818182" y="216.0" />
+      <point x="1195.9276515151519" y="216.0" />
+      <point x="39.200000000000045" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultObjectReceiver" target="org.culturegraph.mf.framework.helpers.DefaultLifeCycle">
+      <point x="-51.5" y="-16.0" />
+      <point x="284.6681818181819" y="246.0" />
+      <point x="193.54166666666674" y="246.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultLifeCycle" target="org.culturegraph.mf.framework.LifeCycle">
+      <point x="0.0" y="-16.0" />
+      <point x="193.54166666666674" y="57.0" />
+      <point x="606.0431818181819" y="57.0" />
+      <point x="-37.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultObjectPipe" target="org.culturegraph.mf.framework.ObjectPipe">
+      <point x="-44.5" y="-16.0" />
+      <point x="938.0431818181819" y="338.0" />
+      <point x="903.5431818181819" y="338.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.ObjectPipe" target="org.culturegraph.mf.framework.ObjectReceiver">
+      <point x="-31.5" y="-16.0" />
+      <point x="872.0431818181819" y="216.0" />
+      <point x="659.4511363636366" y="216.0" />
+      <point x="38.5" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.XmlPipe" target="org.culturegraph.mf.framework.XmlReceiver">
+      <point x="-26.5" y="-16.0" />
+      <point x="1200.543181818182" y="236.0" />
+      <point x="932.9511363636366" y="236.0" />
+      <point x="33.5" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.StreamPipe" target="org.culturegraph.mf.framework.StreamReceiver">
+      <point x="-32.25" y="-16.0" />
+      <point x="697.4181818181819" y="226.0" />
+      <point x="484.7011363636365" y="226.0" />
+      <point x="39.25" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.StreamPipe" target="org.culturegraph.mf.framework.Sender">
+      <point x="32.25" y="-16.0" />
+      <point x="761.9181818181819" y="246.0" />
+      <point x="1117.5276515151518" y="246.0" />
+      <point x="-39.200000000000045" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.ObjectPipe" target="org.culturegraph.mf.framework.Sender">
+      <point x="31.5" y="-16.0" />
+      <point x="935.0431818181819" y="256.0" />
+      <point x="1137.1276515151517" y="256.0" />
+      <point x="-19.59999999999991" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultXmlReceiver" target="org.culturegraph.mf.framework.helpers.DefaultLifeCycle">
+      <point x="-46.5" y="-16.0" />
+      <point x="505.66818181818195" y="236.0" />
+      <point x="247.8750000000001" y="236.0" />
+      <point x="54.33333333333337" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.helpers.DefaultXmlPipe" target="org.culturegraph.mf.framework.helpers.DefaultSender">
+      <point x="-39.5" y="-16.0" />
+      <point x="1148.043181818182" y="348.0" />
+      <point x="1111.543181818182" y="348.0" />
+      <point x="50.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.Receiver" target="org.culturegraph.mf.framework.LifeCycle">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.culturegraph.mf.framework.StreamReceiver" target="org.culturegraph.mf.framework.Receiver">
+      <point x="0.0" y="-16.0" />
+      <point x="445.4511363636365" y="139.0" />
+      <point x="607.0431818181819" y="139.0" />
+      <point x="-36.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7120169401799894" x="935.0" y="261.0" />
+  <SelectedNodes>
+    <node>org.culturegraph.mf.framework.LifeCycle</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
